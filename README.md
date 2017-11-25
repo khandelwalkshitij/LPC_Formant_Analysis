@@ -1,2 +1,4 @@
 # LPC_Formant_Analysis
 Use of Linear Predictive Coding for Formant Analysis of Concurrent Vowels
+
+The project focuses on understanding the effects of noise on the formant representations of both single and concurrent vowels. The dataset used for this purpose included values of single and concurrent vowels at two fundamental frequencies, 100 Hz and 126 Hz respectively. With the help of Linear Predictive Coding (LPC), the formant frequencies were first found for these vowels. Following this, using various speech signals, Speech Spectrum Shaped Noise was generated. After this, the noise was added to the vowels for 3 different SNR values. The formant frequencies were then again estimated for these corrupted signals having different SNR levels. An analysis has been carried out to investigate the effects of the different SNR levels on the formants. Further, an attempt has been made to understand which vowels (both single and concurrent) are more susceptible to noise.
