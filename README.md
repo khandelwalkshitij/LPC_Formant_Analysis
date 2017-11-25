@@ -11,6 +11,12 @@ Taru Kapoor, Kshitij Khandelwal, Anubhav Sachan
 
 The general character of the speech signal varies at the phoneme rate, which is on the order of 10 phonemes per second, while the detailed time variations of the speech waveform are at a much higher rate. That is, the changes in vocal tract configuration occur relatively slowly compared to the detailed time variation of the speech signal. The sounds created in the vocal tract are shaped in the frequency domain by the frequency response of the vocal tract. The resonance frequencies resulting from a particular configuration of the articulators are instrumental in forming the sound corresponding to a given phoneme. These resonance frequencies are called the formant frequencies of the sound. On analyzing the frequency spectrum of a speech signal, various peaks can be observed. The formant frequencies correspond to local maxima in the spectrum. To identify these formants, linear predictive coding proves extremely useful. On carrying out LPC analysis for a speech signal, a prediction polynomial _A(z)_ in _z^(-1)_ is obtained. In the pole-zero plot of _A(z)_, the zeros lying close to or on the unit circle correspond to the formant frequencies of the speech signal. Figure 1 shows the frequency spectrum of a speech signal along with the LPC spectrum of the signal. The peaks in the LPC spectrum correspond to the formant frequencies.
 
+# Acknowledgement
+
+The authors thank Dr. Ananthakrishna Chintanpalli, Department of Electrical and Electronics Engineering, Birla Institute of Technology and Science, Pilani for providing us an opportunity to undertake this project work. The authors also thank him for imparting the signal processing knowledge necessary for this endeavor and for his guidance and clarifications. 
+
+The authors would also like to express their sincere gratitude to Mr. Harshavardhan S, Department of Electrical and Electronics Engineering, Birla Institute of Technology and Science, Pilani for his support and guidance.
+
 # References
 
 [1] L.Rabiner and R.Schafer, Introduction to Digital Speech Processing. Hanover, Now Publishers, 2007.
